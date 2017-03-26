@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<container xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns="http://symfony.com/schema/dic/services"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services
+        http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <imports>
+        <import resource="services/doctrine.xml" />
+        <import resource="services/manager.xml" />
+
+    </imports>
+    <services>
+        <service id="adevis_bundle_bot.installer.bot_installer" class="Miky\Bundle\BotBundle\Installer\BotInstaller">
+            <argument id="adevis_port_manager" type="service"/>
+            <tag name="adevis.installer"/>
+        </service>
+    </services>
+</container>

@@ -1,0 +1,11 @@
+adevis_admin_bot:
+    resource: "@MikyBotBundle/Resources/config/routing/back.yml"
+    prefix : /%admin_prefix_path%
+
+adevis_app_bot:
+    resource: "@MikyBotBundle/Resources/config/routing/front.yml"
+    prefix : /bot
+
+adevis_api_bot:
+    resource: "@MikyBotBundle/Resources/config/routing/api.yml"
+
