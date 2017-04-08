@@ -10,9 +10,9 @@
 
     </imports>
     <services>
-        <service id="adevis_bundle_bot.installer.bot_installer" class="Miky\Bundle\BotBundle\Installer\BotInstaller">
-            <argument id="adevis_port_manager" type="service"/>
-            <tag name="adevis.installer"/>
+        <service id="miky_bundle_bot.installer.bot_installer" class="Miky\Bundle\BotBundle\Installer\BotInstaller">
+            <argument id="miky_port_manager" type="service"/>
+            <tag name="miky.installer"/>
         </service>
     </services>
 </container>

@@ -25,7 +25,7 @@ class PortApiController extends ApiController
      */
     public function openSessionAction()
     {
-        $portManager = $this->get("adevis_port_manager");
+        $portManager = $this->get("miky_port_manager");
         $port = $portManager->openSession();
         $view = $this->view($port, 200);
         return $this->handleView($view);
@@ -37,7 +37,7 @@ class PortApiController extends ApiController
      */
     public function closeSessionAction(Port $port)
     {
-        $portManager = $this->get("adevis_port_manager");
+        $portManager = $this->get("miky_port_manager");
         $port = $portManager->closeSession($port);
         $view = $this->view($port, 200);
         return $this->handleView($view);

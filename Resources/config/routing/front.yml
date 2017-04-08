@@ -1,7 +1,7 @@
-#adevis_app_customer_history_list:
+#miky_app_customer_history_list:
 #    path:      /list
 #    defaults:  { _controller: MikyUserBundle:Frontend/History:list}
 #
-#adevis_app_customer_history_remove:
+#miky_app_customer_history_remove:
 #    path:      /{history}/remove
 #    defaults:  { _controller: MikyUserBundle:Frontend/History:remove}
