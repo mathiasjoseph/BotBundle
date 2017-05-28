@@ -9,7 +9,7 @@
 namespace Miky\Bundle\BotBundle\EntityManager;
 
 
-use Miky\Bundle\CoreBundle\Manager\AbstractObjectManager;
+use Miky\Bundle\CoreBundle\Doctrine\AbstractObjectManager;
 use Miky\Component\Bot\Model\Port;
 use Doctrine\Common\Persistence\ObjectManager;
 
