@@ -1,4 +1,0 @@
-miky_app_bot_port:
-    type:         rest
-    resource:     Miky\Bundle\BotBundle\Controller\Api\PortApiController
-
